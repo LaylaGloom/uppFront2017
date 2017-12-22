@@ -1,0 +1,42 @@
+#f-gris{
+	background-color: #f5f5f5;
+}
+#menu-Lat{
+	background-color: #ffffff;
+	border: none;
+}
+#f-blan{
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding:40px;
+}
+.f-blan{
+	background-color: #ffffff;
+}
+p#just1{
+	text-align: justify;
+	padding:5px;
+}
+.subtitle h5{
+	text-transform: uppercase;
+	line-height: 2px;
+}
+.sub-menu li{
+	text-transform: none;
+}
+.sub-menu ul{
+	list-style-type:disc;
+	margin-top: 2px;
+}
+.subM-down ul{
+	list-style-type: none;
+	position: relative;
+	display: block;
+	padding: 0px 0px;
+}
+.sub-menu li>a{
+	color:#1414C8;
+	font-weight: bold;
+}
+
+
