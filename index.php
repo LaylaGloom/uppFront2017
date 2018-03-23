@@ -45,10 +45,9 @@
     <?php include ('./seph/hf/header.html'); ?>
 
     <!-- Menu principal superior -->
-    <?php include ('./coreFRONTx/menu-superior/menu.html'); ?>
+    <?php include ('./coreFRONTx/menu-superior/menu.html'); ?> 
 
-    <!-- Motor de busqueda de google -->
-    <?php include ('./coreFRONTx/google/gsearch.html'); ?>
+    <!-- Motor de busqueda de google 
 
     <!-- Slider principal -->
     <?php include ('./coreFRONTx/slider-principal/caroucel.html'); ?>
