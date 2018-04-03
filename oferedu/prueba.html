@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prueba</title>
+    <link href="../vendor/fortawesome/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/twbs/estilos/estilos.css">
+    <script src="../vendor/components/jquery/jquery.min.js"></script>
+    <script src="../vendor/components/jquery/jquery.mlens-1.7.min.js"></script>
+    <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-9">
+        <div class="contimg imgofer">
+          <img class="imgsldh" src="../oferedu/images/images-Finan/introducción.jpg" alt="img">
+        </div>
+        <div id="lupita">
+          <img id="lupa" class="imgofer imgcont" src="../oferedu/images/images-Finan/lupaS.jpeg" alt="imglupa"
+           data-big="../oferedu/images/images-Finan/lupaG.jpeg">
+        </div>
+        <div>
+          <img id="trans" class="imgofer imgcont" src="../oferedu/images/images-Finan/egre2.jpg" alt="img">
+        </div>
+      </div>
+    </div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#trans').mouseenter(function(event) {
+        $('#trans').fadeOut(1000);
+        var imagen = document.getElementById('trans').src = "../oferedu/images/images-Finan/egre3.jpg";
+      });
+
+    $('#trans').mouseleave(function(event) {
+      var imagen = document.getElementById('trans').src = "../oferedu/images/images-Finan/egre2.jpg";
+      $('#trans').fadeIn(100);
+    });
+
+  });
+</script>
+
+  </body>
+</html>

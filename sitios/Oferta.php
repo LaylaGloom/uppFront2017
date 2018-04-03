@@ -114,6 +114,8 @@
 
 <script src="../vendor/components/jquery/jquery.min.js"></script>
 <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../vendor/components/jquery/jquery.mlens-1.7.min.js"></script>
+<script src="../vendor/components/js/lupa.js"></script>
 <script src="../coreFRONTx/prensa/rmbc.js"></script>
 <script src="../vendor/components/js/javas.js"></script>
 <script src="../vendor/components/js/indice.js"></script>

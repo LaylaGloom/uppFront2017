@@ -35,14 +35,30 @@ p#just1{
 h1,h2,h3,h5,h5{
 	font-family:'Graphik-Semibold', tahoma, sans-serif;
 }
+h1{
+	font-size: x-large;
+	font-weight: bold;
+	color: #472673;
+}
+h4.subtitle{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: medium;
+}
+.sub{
+	font-weight: 500;
+	color:#33052c;
+}
+.datos{
+	color: #373c3a;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 1.2em;
+}
 .subtitle{
-	text-transform: uppercase;
 	line-height: 2px;
 	letter-spacing:0.2px;
 	color: #472673;
-}
-.subtitle h4{
-	font-family: 'Dosis', sans-serif !important;
 }
 .sub-menu li{
 	text-transform: none;
@@ -88,6 +104,7 @@ h1,h2,h3,h5,h5{
 	top: 90%;
 	right: 10px;
 	position: fixed;
+	z-index: 1000;
 }
 .fa-chevron-circle-up{
 	height: 52px;
@@ -106,6 +123,12 @@ h1,h2,h3,h5,h5{
 	margin-left: 5rem;
 	margin-right: 6rem;
 }
+.imgcont{
+	width:100%;
+	max-width: 720px;
+	max-height: 320px;
+	overflow: hidden;
+}
 .imgofer{
 	padding: 4px;
 	border: 1px solid #ddd;
@@ -118,6 +141,48 @@ h1,h2,h3,h5,h5{
 .car-casex{
 	height: 45rem;
 }
+#trans{
+	-webkit-transition:all 1s ease-out;
+  -o-transition:all 1s ease-out;
+  -moz-transition:all 1s ease-out;
+  -ms-transition:all 1s ease-out;
+  transition:all 1s ease-out;
+}
+#trans:hover{
+	background-color: #665b63;
+}
+#lupita{
+	position:relative;
+	margin: 20px auto;
+	box-shadow: 1px 1px 5px rgba(50,50,50 0.5);
+}
+.contimg{
+	display: block;
+	margin:0 auto;
+	max-width: 510px;
+	max-height: 290px;
+	overflow: hidden;
+	}
+	.imgsldh{
+		border-radius: 4px;
+		display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 280px;
+    margin-left: 0px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+    }
+
+
+.imgsldh:hover{
+           margin-left: -500px;
+        }
+
 
 #370440, #dfc3e6, #67586a, #0f1537, #3c0236
 #370440, #d7daec, #6a5869, #370f13, #3c0208
